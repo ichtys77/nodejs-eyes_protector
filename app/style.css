@@ -58,6 +58,10 @@ p {
   animation-iteration-count: infinite;
 }
 
+.inactive {
+  display: none;
+}
+
 @keyframes pulse {
   from {
     -webkit-transform: scale3d(1, 1, 1);
