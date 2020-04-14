@@ -36,7 +36,7 @@ class App extends React.Component {
     });
   };
 
-  formatTime= time => {
+  formatTime = time => {
 
     let formatedTime;
     let minutes = Math.floor(time / 60);
